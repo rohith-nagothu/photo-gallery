@@ -1,0 +1,53 @@
+body{
+	background-color: coral;
+	text-align: center;
+}
+
+#home img{
+	width: 400px;
+	height: 200px;
+}
+#gridview img{
+	width: 450px;
+	height: 200px;
+}
+.container{
+    text-align: center;
+}
+#mycarousel{
+    background-color: chartreuse;
+}
+#mycarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(.9);
+}
+h1{
+    font-size: 40px;
+    margin-top:40px;
+}
+.menu{
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+	z-index: 10;
+	font-size: 20px;
+	
+}
+.li{
+	display: inline;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+	
+}
+#home{
+	z-index: 9;
+	text-align: center;
+}
